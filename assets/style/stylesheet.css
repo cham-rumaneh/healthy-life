@@ -696,7 +696,7 @@ padding-bottom: 49px;
     width: 80vw;
 height: 578px;
 border-radius: 16px;
-    transform: translateX(-1%);
+    transform: translateX(-2%);
     border-radius: 12px;
     margin: 0 auto;
     padding-left: 10px;
@@ -863,7 +863,7 @@ margin-top: 16px;
 }
 .contactBox {
     height:fit-content;
-    top: -70px;
+    top: -60px;
 }
 
 
