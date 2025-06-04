@@ -1,0 +1,869 @@
+/*تنسيقات عامة*/
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    }
+/*تنسيق Header*/
+nav a {
+    text-decoration: none;
+    color:#2B2B2B;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    }
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 347px; 
+        }
+
+.menu li {
+    list-style:none;
+        }
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    padding-top: 34px;
+    height: 140px;
+}
+
+.menuIcon{
+    display: none;
+}
+
+/*Hero Style  */
+.heroText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 33px;
+    padding-left: 70px;
+    padding-right: 70px;
+
+}
+.heroTitle {
+font-family: Poppins;
+font-weight: 600;
+font-size: 65.34px;
+line-height: 82px;
+text-align: center;
+width: 90.28vw;
+padding-bottom: 17px;
+            }
+
+.hero p {
+font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+padding-bottom: 33px;
+
+
+}
+.hero img {
+    width: 43.47vw;
+    height: 36.11vh;
+
+}
+.hero button{
+width: 251px;
+height: 56px;
+gap: 16px;
+border-radius: 67px;
+padding: 16px;
+background-color: #285E67;
+border: #285E67;
+font-size: 21.33px;
+color: #FFFFFF;
+font-family:Poppins ;
+
+
+}
+.heroImages{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 70px;
+    gap: 48px;
+    
+
+}
+.hero {
+    padding-bottom: 104px;
+}
+
+/* تنسيق قسم About*/
+.about_container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    width: 92vw;
+    height: 41.30vh;
+    border-radius: 12px;
+    background-color: #F4F4F4;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.about_title {
+font-family: Poppins;
+font-weight: 600;
+font-size: 50.52px;
+line-height: 62px;
+color: #2B2B2B;
+padding-bottom: 61px;
+
+}
+.cardsfather{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 589px;
+    
+
+}
+.card p {
+font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+width: 260px;
+height: 110.53785705566406px; }
+
+.card img {
+    padding-bottom: 20px;
+}
+.yogaPhoto {
+margin-top: 100px;
+}
+
+.about {
+    padding-bottom: 104px;
+}
+
+/*  تنسيق قسم Services*/
+.services {
+    padding: 0 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.services h1 {
+font-family: Poppins;
+font-weight: 600;
+font-size: 50.52px;
+line-height: 62px;
+padding-bottom: 40px;
+padding-top: 30px;
+padding-left: 53px;
+                }
+
+.services p {
+font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+max-width:43.37vw;
+height: 83px;
+padding-bottom: 50px;
+display: flex;
+padding-left: 53px;
+
+
+}
+.servicesCard p {
+    padding-left: 0;
+    padding-top: 50px;
+    font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+width: 3812vw;
+height: 52;
+display: block;
+
+
+}
+
+.servicesCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 23px;
+    width: 623.5px;
+    height: 52px;
+    margin-top: 50px;
+
+
+}
+
+.servicesPart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.treeicon {
+    padding-right: 25px;
+    padding: 50px;
+}
+
+
+.treePhoto {
+    width: 43.4vw;
+    height: 64.2vh;
+}
+
+/*تنسيق Team*/
+.team_container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 87px;
+    padding: 0 70px;
+    width: 92vw;
+    height: 41.30vh;
+    border-radius: 12px;
+    background-color: #F4F4F4;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.team_title {
+font-family: Poppins;
+font-weight: 600;
+font-size: 50.52px;
+line-height: 62px;
+color: #2B2B2B;
+padding-bottom: 61px;
+
+}
+.cardsfather_team{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 589px;
+    
+
+}
+.card p {
+font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+width: 260px;
+height: 110.53785705566406px; }
+
+.card img {
+    padding-bottom: 20px;
+}
+
+
+.services {
+    padding-bottom: 104px;
+
+}
+
+.illustration {
+width: 24.31vw;
+height: 33.94vh;
+}
+
+.team {
+    padding-bottom: 104px;
+}
+/*تنسيق Contact */
+.mainfather {
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 90.41vw;
+    height: 66.7vh;
+    border-radius: 12px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+
+}
+
+.contactContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 650px;
+height: 340px;
+margin-bottom: 228px;
+margin-top: 110px;
+
+
+}
+
+.whiteicon {
+
+}
+
+.contactTitle {
+font-family: Poppins;
+font-weight: 600;
+font-size: 37.9px;
+line-height: 36px;
+text-align: center;
+color: #FFFFFF;
+max-width: 640px;
+height: 44px;
+margin-top: 45px;
+
+
+
+}
+
+.contactText {
+font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+max-width: 650px;
+height: 50px;
+margin-top: 28px;
+
+
+
+}
+.contactButton {
+font-family: Poppins;
+font-weight: 600;
+font-size: 21.33px;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: center;
+background: transparent;
+border: 1px solid #FFFFFF;
+border-radius: 64px;
+width: 257px;
+height: 56px;
+border-width: 1px;
+margin-top: 28px;
+
+
+}
+
+.contactButton {
+font-family: Poppins;
+font-weight: 600;
+font-size: 21.33px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+
+}
+.contactBox {
+    width: 80.9vw;
+height: 35.6vh;
+background-color: #FCE2D7;
+border: 1px solid #FCE2D7;
+border-radius: 12px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+gap: 17px;
+margin: 0 auto;
+position: relative;
+z-index: 2;
+top: -200px;
+
+}
+.contactCard {
+    text-align: center;
+    width: 245.5px;
+height: 118px;
+
+
+}
+.ContactCardText {
+margin-top: 11px;
+}
+.contactCard img {
+
+}
+
+
+.ourTree{
+    display: none;
+}
+
+@media screen and (max-width: 1091px) {
+    /*تنسيثق الهيرو*/
+    .hero p {
+        max-width: 884px;
+    }
+    
+    .hero img {
+        width: 39.114vw;
+        height: 35.74vh;
+    }
+    .heroImages {
+        gap: 28px;
+    }
+    
+/*تنسيق About*/
+.yogaPhoto{
+    display: none;
+}
+.about_container {
+    justify-content: center;
+    align-items: center;
+}
+
+.cardsfather {
+    align-items: center;
+    justify-content: ;
+}
+.about_title , .cardsfather
+{
+    text-align: center;
+}
+
+
+/*تنسيق قسم الخدماا*/
+
+.treePhoto {
+width: 429.5;
+height: 578;
+
+
+
+}
+
+.services h1 {
+    width: 39.37vw;
+height: 13.91vh;
+flex-wrap: nowrap;
+padding-left: 25px;
+width: 429.5px;
+height: 116px;
+
+}
+.services p {
+    padding-left: 25px;
+}
+
+.servicesCard p {
+    color: #285E67;
+    width: 32.5vw;
+height: 6.23vh;
+gap: 23px;
+}
+
+.servicesCard {
+
+    justify-content: flex-start;
+    width: 429.5px;
+height: 52px;
+gap: 23px;
+
+
+
+
+}
+.cardsfather {
+    align-items: center;
+    justify-content: center;
+}
+.servicesList {
+    padding-left: 25px;
+}
+.treeicon {
+    padding-right: 23px;
+    padding-left: 25px;
+}
+.servicesPart {
+  width: 884px;
+height: 578px;
+gap: 25px;
+
+align-items: self-start;
+
+}
+.servicesText {
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    text-align: left;
+    align-items: self-start;
+    gap: 10px;
+}
+.services {
+        padding: 0 70px;
+        padding-bottom: 104px;
+    }
+    
+    .services h1 {
+        padding-left: 25px;
+        padding-top: 0;
+        margin-top: -50px; 
+    }
+    
+    .services .servicesDiscribtion {
+        padding-left: 25px;
+        margin-top: 10px;
+    }
+    
+    .servicesCard {
+        gap: 15px; 
+    }
+    
+    .servicesCard p {
+        padding-top: 0;
+        margin-top: 0;
+    }
+    
+    .servicesList {
+        padding-left: 25px;
+        margin-top: 20px;
+    }
+    
+    .treeicon {
+        padding: 0;
+        padding-right: 15px;
+    }
+
+/*تنسيق About*/
+.illustration{
+    display: none;
+}
+.team_container {
+    justify-content: center;
+    align-items: center;
+}
+
+.cardsfather_team {
+    align-items: center;
+    justify-content: ;
+}
+.team_title , .cardsfather_team
+{
+    text-align: center;
+}
+
+
+/*تنسيق Contact*/
+.contactBox  {
+width: 68.1vw;
+height: 51.7vh;
+flex-wrap: wrap;
+padding-top: 49px;
+padding-bottom: 49px;
+}
+
+} 
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .menu {
+        display: none;
+    }
+    .menuIcon {
+        display: block;
+    }
+    header {
+        padding: 0 35px;
+        padding-top: 27px;
+    }
+
+    /*تنسيق الهيرو*/
+    .heroTitle {
+        font-size: 37.9px;
+        line-height: 47px;
+        text-align: center; 
+    }
+    
+    .heroText {
+        padding-left: 35px;
+        padding-right: 35px;
+        margin: 0 auto;
+        text-align: center; 
+    }
+    
+    .heroImages {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%; 
+        padding: 0 35px; 
+    }
+
+    .hero img {
+        width: 100%;
+        max-width: 90vw;
+        margin: 0 auto; 
+    }
+
+    /*تنسيق About*/
+    .about_container {
+        height: fit-content;
+        flex-direction: column;
+        padding: 40px 35px; 
+        margin: 0 auto;
+    }
+    
+    .about_title {
+        font-weight: 600;
+        font-size: 39.7px;
+        line-height: 53px;
+        text-align: center;
+        width: 100%; 
+        max-width: 358px;
+        margin: 0 auto; 
+    }
+
+    .cardsfather {
+        flex-direction: column;
+        align-items: center; 
+        gap: 30px;
+        width: 100%;
+    }
+
+    .card {
+        text-align: center;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .card p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        width: 100%;
+    }
+.about {
+    padding-bottom: 50px;
+}
+    /*تنسيق الخدمات*/
+    .services {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 35px; 
+    margin: 40px 0;
+}
+
+.treePhoto {
+
+    display: none;
+}
+
+.ourTree {
+    display: block;
+    background-image: url(../images/image3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90vw;
+height: 578px;
+border-radius: 16px;
+
+    border-radius: 12px;
+    margin: auto;
+    padding-right: 20px;
+    
+}
+
+.servicesPart {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 90vw;
+    padding: 20px 0;
+}
+
+.servicesText {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.services h1 {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 15px;
+    font-size: 32px;
+    line-height: 40px;
+    padding-top: 50px;
+}
+
+.services .servicesDiscribtion {
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.servicesList {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+}
+
+.servicesCard {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    gap: 15px;
+    padding: 15px;
+    margin-bottom: 0;
+}
+
+.servicesCard .treeicon {
+    padding: 0;
+    margin: 0;
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.servicesCard p {
+    text-align:left;
+    width: calc(100% - 40px);
+    color:#285E67;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+}
+
+.services {
+    padding-bottom: 80px;
+}
+    
+
+    /*تنسيق team*/
+    .team_container {
+        height: fit-content;
+        flex-direction: column;
+        padding: 40px 35px; 
+        margin: 0 auto;
+    }
+    
+    .team_title {
+        font-weight: 600;
+        font-size: 39.7px;
+        line-height: 53px;
+        text-align: center;
+        width: 100%; 
+        max-width: 358px;
+        margin: 0 auto; 
+    }
+
+    .cardsfather_team {
+        flex-direction: column;
+        align-items: center; 
+        gap: 30px;
+        width: 100%;
+    }
+
+    .card {
+        text-align: center;
+        width: 84.19vw;
+height: 23.59vh;
+    }
+
+    .card p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+width: 100%;
+
+flex-wrap: wrap;
+    }
+
+    .services {
+        padding-bottom: 100px;
+
+        
+    }
+    /*تنسيق  Contact*/
+    .contactText {
+        display: none;
+    }
+
+    .mainfather {
+         width: 83.9vw;  
+  height: 47.96vh; 
+    }
+
+    .whiteicon {
+        width: 46.557861328125px;
+height: 41.473731994628906px;
+
+
+    }
+.contactTitle {
+font-size: 21.33px;
+line-height: 31px;
+width: 236px;
+height: 62px;
+margin-top: 13px;
+
+}
+
+.contactButton{
+    width: 198px;
+height: 46px;
+margin-top: 16px;
+
+}
+.contactBox {
+    height: auto;
+}
+
+
+
+}
